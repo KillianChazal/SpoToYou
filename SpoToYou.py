@@ -132,8 +132,8 @@ def main():
     print("\n=== CONNEXION À SPOTIFY ===")
     try:
         sp = spotipy.Spotify(auth_manager=SpotifyOAuth(
-            client_id="fab9e6b7a8c246d885108e62b5f32b28",
-            client_secret="f9aeece64bb442f48f625c64778e7ca3",
+            client_id="votre clé client spotify",
+            client_secret="votre clé secrete spotify",
             redirect_uri="http://127.0.0.1:8888/callback",
             scope="playlist-read-private playlist-read-collaborative"
         ))
