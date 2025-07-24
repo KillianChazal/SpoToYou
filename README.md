@@ -27,7 +27,12 @@ Taux de réussite des transfert de plus de 95%, certains sons peuvent ne pas êt
 
 2. Installez les dépendances : pip install -r requirements.txt
 
-3. Configurez browser.json (Pour se connecter à votre compte YT Music et créer une playlist)
+3. Créez une appli sur `https://developer.spotify.com/`, et remplacez les clé d'identification aux lignes 135 et 136 du script :
+
+![Aperçu](demo2.png)
+![Aperçu](demo3.png)
+
+4. Configurez browser.json (Pour se connecter à votre compte YT Music et créer une playlist)
 
 ## 🔐 Configuration de l'authentification YouTube Music (`browser.json`)
 
