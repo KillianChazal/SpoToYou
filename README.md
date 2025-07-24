@@ -28,6 +28,7 @@ Taux de réussite des transfert de plus de 95%, certains sons peuvent ne pas êt
 2. Installez les dépendances : pip install -r requirements.txt
 
 3. Créez une appli sur `https://developer.spotify.com/`, et remplacez les clé d'identification aux lignes 135 et 136 du script :
+Dans Redirect URIs mettez : http://127.0.0.1:8888/callback
 
 ![Aperçu](demo2.png)
 ![Aperçu](demo3.png)
